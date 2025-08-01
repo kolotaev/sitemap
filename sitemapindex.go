@@ -1,9 +1,12 @@
 package sitemap
 
 import (
-	"encoding/xml"
-	"github.com/snabb/diagio"
 	"io"
+
+	// We use this package to have an ability to unmarshal namespaced-entities.
+	// See https://github.com/golang/go/issues/9519
+	"github.com/nbio/xml"
+	"github.com/snabb/diagio"
 )
 
 // SitemapIndex is like Sitemap except the elements are named differently

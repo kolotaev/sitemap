@@ -6,10 +6,13 @@
 package sitemap
 
 import (
-	"encoding/xml"
-	"github.com/snabb/diagio"
 	"io"
 	"time"
+
+	// We use this package to have an ability to unmarshal namespaced-entities.
+	// See https://github.com/golang/go/issues/9519
+	"github.com/nbio/xml"
+	"github.com/snabb/diagio"
 )
 
 // ChangeFreq specifies change frequency of a sitemap entry. It is just a string.

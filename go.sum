@@ -1,0 +1,4 @@
+github.com/nbio/xml v0.0.0-20250513004134-43b6474001b5 h1:MktXAYjv6S/vumzlATGeh7ebycYD4YMv7Hg6iDF6RIc=
+github.com/nbio/xml v0.0.0-20250513004134-43b6474001b5/go.mod h1:990JnYmJZFrx1vI1TALoD6/fCqnWlTx2FrPbYy2wi5I=
+github.com/snabb/diagio v1.0.4 h1:XnlKoBarZWiAEnNBYE5t1nbvJhdaoTaW7IBzu0R4AqM=
+github.com/snabb/diagio v1.0.4/go.mod h1:Y+Pja4UJrskCOKaLxOfa8b8wYSVb0JWpR4YFNHuzjDI=
